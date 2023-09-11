@@ -65,23 +65,9 @@ const Footer = () => {
           </div>
 
         </div>
-        <div >
-          <ul className=' flex items-center mt-10 justify-center gap-10'>
-            <li><a className=' text-gray-400 font-[600]  hover:text-red-500' href="#about">
-              About</a></li>
-            <li><a className='  text-gray-400 font-[600] hover:text-red-500' href="#skills">
-              Skills</a></li>
-            <li><a className='  text-gray-400 font-[600] hover:text-red-500' href="#portfolio">
-              Portfolio</a></li>
-            <li><a className='  text-gray-400 font-[600]  hover:text-red-500' href="#education">
-              Education</a></li>
-            <li><a className='  text-gray-400 font-[600]  hover:text-red-500' href="#certification">
-              Certification</a></li>
-            <li><a className='  text-gray-400 font-[600] hover:text-red-500' href="#contact">
-              Contact</a></li>
-
-          </ul>
-        </div>
+       
+          
+       
 
       </div>
       <div className='bg-[#12141e] pt-12 flex items-center justify-center  text-gray-400 text-[14px]'>

@@ -20,10 +20,10 @@ const Contact = () => {
                 </div>
                 <div className='w-full text-smallTextColor flex font-[400] text-[25px] mt-8   items-center bg-indigo-100 px-4
                 py-8 '> <ul>
-                    <i class=" button1 ri-mail-fill">
-                        <p className='text1 '>ajaikulkarni669@gmail.com</p></i><br/>
-                <i class="ri-phone-fill button1"><p className='text1'>+91-7507342316</p></i><br/>
-                <i class="ri-map-pin-2-fill button1">     <p className='text1'> Nanded, Maharashtra, India</p></i>
+                    <i class="  ri-mail-fill">
+                        <p className=''>ajaikulkarni669@gmail.com</p></i><br/>
+                <i class="ri-phone-fill "><p className=''>+91-7507342316</p></i><br/>
+                <i class="ri-map-pin-2-fill ">     <p className=''> Nanded, Maharashtra, India</p></i>
                 </ul>
                 
                     
