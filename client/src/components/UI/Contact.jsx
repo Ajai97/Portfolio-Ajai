@@ -18,8 +18,8 @@ const Contact = () => {
                 loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
 
                 </div>
-                <div className='w-full text-smallTextColor flex font-[800] text-[40px] mt-8 md:mt-0 md:w-1/2 sm:h-[450px] lg:flex items-center bg-indigo-100 px-4
-                lg:px-8 py-8 '> <ul>
+                <div className='w-full text-smallTextColor flex font-[400] text-[25px] mt-8   items-center bg-indigo-100 px-4
+                py-8 '> <ul>
                     <i class=" button1 ri-mail-fill">
                         <p className='text1 '>ajaikulkarni669@gmail.com</p></i><br/>
                 <i class="ri-phone-fill button1"><p className='text1'>+91-7507342316</p></i><br/>
