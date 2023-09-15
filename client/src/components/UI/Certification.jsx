@@ -1,9 +1,30 @@
 import React from 'react'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+import Img1 from '../../assets/certificate/1.png'
+import Img2 from '../../assets/certificate/2.png'
+import Img3 from '../../assets/certificate/3.png'
+import Img4 from '../../assets/certificate/4.png'
+import Img5 from '../../assets/certificate/5.png'
+import Img6 from '../../assets/certificate/6.png'
+import Img7 from '../../assets/certificate/7.png'
+import Img8 from '../../assets/certificate/8.png'
+import Img9 from '../../assets/certificate/9.png'
+import Img10 from '../../assets/certificate/10.png'
+import Img11 from '../../assets/certificate/11.png'
+import Img12 from '../../assets/certificate/12.png'
+import Img13 from '../../assets/certificate/13.png'
+import Img14 from '../../assets/certificate/14.png'
+
 
 
 const Certification = props => {
     return (
-        <section id='certification' className='bg-slate-400 card-inner card'>
+        <section id='certification' className='bg-slate-300 card-inner card'>
             <div className='text-center'>
                 <h2 className=' text-headingColor font-[800] text-[2.4rem] mb-5'>
                     Certifications
@@ -79,6 +100,37 @@ const Certification = props => {
                 </div>
 
             </div>
+            <Swiper className='bg-slate-300'
+
+                modules={[Navigation, Pagination, A11y]}
+                effect={'fade'}
+                grabCursor={true}
+                centeredSlides={true}
+                spaceBetween={120}
+                slidesPerView={2}
+                navigation
+                pagination={{ clickable: true }}
+                
+                onSwiper={(swiper) => console.log(swiper)}
+                onSlideChange={() => console.log('slide change')}
+            >
+                <SwiperSlide><img src={Img1} alt="" /></SwiperSlide>
+                <SwiperSlide><img src={Img2} alt="" /></SwiperSlide>
+                <SwiperSlide><img src={Img3} alt="" /></SwiperSlide>
+                <SwiperSlide><img src={Img4} alt="" /></SwiperSlide>
+                <SwiperSlide><img src={Img5} alt="" /></SwiperSlide>
+                <SwiperSlide><img src={Img6} alt="" /></SwiperSlide>
+                <SwiperSlide><img src={Img7} alt="" /></SwiperSlide>
+                <SwiperSlide><img src={Img8} alt="" /></SwiperSlide>
+                <SwiperSlide><img src={Img9} alt="" /></SwiperSlide>
+                <SwiperSlide><img src={Img10} alt="" /></SwiperSlide>
+                <SwiperSlide><img src={Img11} alt="" /></SwiperSlide>
+                <SwiperSlide><img src={Img12} alt="" /></SwiperSlide>
+                <SwiperSlide><img src={Img13} alt="" /></SwiperSlide>
+                <SwiperSlide><img src={Img14} alt="" /></SwiperSlide>
+
+                ...
+            </Swiper>
 
 
 

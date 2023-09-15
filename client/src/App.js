@@ -9,6 +9,7 @@ import Portfolio from './components/UI/Portfolio';
 import Contact from './components/UI/Contact';
 import Education from './components/UI/Education';
 import Certification from './components/UI/Certification';
+
 function App() {
   useEffect(()=>{
     Aos.init();
@@ -21,6 +22,7 @@ function App() {
 <Skills/>
 <Education/>
 <Certification/>
+
 <Portfolio/>
 <Contact/>
 </main>

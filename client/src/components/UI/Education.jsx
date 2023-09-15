@@ -3,12 +3,12 @@ import React from 'react'
 
 const Education = () => {
   return (
-    <section id='education' className='bg-img  bg-slate-400 '>
+    <section id='education' className='hero2  bg-slate-400 '>
        
     <div className='container lg:pt-5'>
         
         <div className='text-center'>
-            <h2 className=' text-headingColor font-[800] text-[2.4rem] mb-5'>
+            <h2 className=' text-white font-[800] text-[2.4rem] mb-5'>
                 Education
                 </h2> 
                 

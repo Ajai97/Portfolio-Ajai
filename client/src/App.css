@@ -28,6 +28,23 @@ section{
   background-image: url('./assets/images/tech2.avif');
 
 }
+.hero1{
+  
+  background-image: url('./assets/images/tech21.jpg');
+
+}
+.hero2{
+  
+  background-image: url('./assets/images/tech21.jpg');
+
+}
+.hero3{
+  
+  height:auto;
+  width: auto;
+  background-image: url('./assets/images/tech25.webp');
+
+}
 .certification{
   display:flex;
   height:auto;

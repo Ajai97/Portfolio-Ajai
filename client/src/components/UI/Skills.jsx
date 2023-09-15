@@ -37,13 +37,19 @@ import Img18 from '../../assets/swiperimg/github.png'
 const Services = () => {
    
   return (
-   <section id='skills' className='bg-img bg-slate-200 '>
-    <div className='container lg:pt-5'>
+   <section id='skills' className='hero1  '>
+    <div className='container  lg:pt-5'>
         <div className='text-center'>
-            <h2 className='  text-headingColor font-[800] text-[2.4rem] mb-5'>
+            <h2
+            data-aos='fade-right'
+            data-aos-duration='1500'
+             className='  text-white font-[800] text-[2.4rem] mb-5'>
                 What do I Help
                 </h2> 
-                <p className='lg:max-w-[600px] lg:mx-auto text-headingColor font-[500] text-[16px] leading-7'>
+                <p 
+                data-aos='fade-up'
+                data-aos-duration='1500'
+                className='lg:max-w-[600px] lg:mx-auto text-white font-[500] text-[16px] leading-7'>
                 Full Stack Developer looking to work in an organization that can provide a variety of oppurtunities that allow me 
                 to expand my skills and knowledge white working towards 
                 achieving the organizational goals.
@@ -186,7 +192,7 @@ const Services = () => {
                         </div>
 
                     </div>
-                    <div className='mt-6 sm:mt-0 sm:mb-12 '>
+                    <div className=' mt-6 sm:mt-0 sm:mb-12 '>
                         <div className='flex items-center flex-col sm:flex-row'>
                             <div className='flex justify-start w-full mx-auto items-center'>
                                 <div className='w-full sm:w-1/2 sm:pr-8'>
@@ -226,16 +232,18 @@ const Services = () => {
         </div>
 
     </div>
-    <div className='container'>
-    <div className=' py-4 px-4  justify-content-center text-black font-[800]  '>
-        <h1 className='flex items-center justify-content-center text-[2.4rem]'>Skill Set </h1>
-        <Swiper className=' bg-slate-200 lg:w-[100.2%]'
+   
+    <div className='text-center'>
+            <h2 className=' text-white font-[800] text-[2.4rem] mb-5'>
+               Skill Set
+                </h2> 
+        <Swiper className=' bg-slate-300 '
         effect={'coverflow'}
         grabCursor={true}
         centeredSlides={true}
         loop={true}
-        spaceBetween={120}
-        slidesPerView={3}
+        spaceBetween={150}
+        slidesPerView={2}
         coverflowEffect={{
             rotate:0,
             stretch:0,
@@ -321,7 +329,7 @@ const Services = () => {
         </Swiper>
         
     </div>
-    </div>
+   
     
 
    </section>
