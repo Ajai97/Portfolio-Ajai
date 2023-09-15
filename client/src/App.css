@@ -99,7 +99,7 @@ section{
     top: 0;
     left: 0;
     background: #2d222284;
-    z-index: index 2;
+    z-index:20;
     display: none;
   }
   .menu ul{
